@@ -1,0 +1,190 @@
+<Doctype html>
+	<html lang="en">
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewpoort" content="widge=device-width, initial-scale-1.0">
+		
+		<title>Responsiv portflio website</title>
+		
+		<head>
+			<style>
+				body{
+					font-family: Arial,Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4;
+				}
+				.Container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+background: #35424a;
+color: #ffffff;
+padding-top: 30px;
+min-height: 70px;
+border-bottom: #e8491d 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	
+	font-size: 16px;
+
+}
+ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.button_1{
+	height: 25px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+header li{
+ 	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+heder nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: #008000;
+	font-weight: bolder;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+/*showcase*/
+#showcase{
+	min-height: 400px;
+	background: url('nn.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: black;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 15px;
+	
+}
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+#newsletter h1{
+	float: left;
+	width: 500px;
+}
+ #newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	margin: 25px;
+	width: 250px;
+
+}
+/* Boxes*/
+#boxes {
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#boxes.box{
+	width: 90px;
+}
+
+</style>
+			<body>
+				<button onclick="Welcome()"><strong> Welcome to our Website</strong></button>
+				<hr>
+				<header>
+					<div class="container">
+						<div id="branding">
+							<h1><span class="highlight">Cubz </span>Web Deisgn</h1>
+							
+						</div>
+					<nav>
+						<ul>
+						<li class="current"><a href="index.html"><strong>Home</strong></a></li>
+						<li><a href="About.html"><strong>About </strong></a></li>
+						<li><a href="Services.html"><strong>Services</strong></a></li>
+						<li><a href="contact information.html"><strong>Contact information</strong></a></li>
+					</ul>
+					</nav>	
+					</div>
+				</header>
+
+				<section id="Showcase">
+					<div  class="container">
+						<h1>Affordable Profestional Web Design</h1>
+						<p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. <br>A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+					</div>
+					</section>
+
+				<section id="newsletter">
+					<div class="container">
+						<h1>Subscribe to our Newsletter</h1>
+					
+				<form>
+					<input type=" Email"  id="registeremail" placeholder="Enter email....">
+					<button type="Submit" class="button_1">Subsribe</button>
+				</form>
+			</div>
+		</section>
+
+		
+				
+
+				<section id="BOXES">
+					<div class="container">
+						<div class="box">
+							<img src="pp.jpg">
+							<h3>HTML5 markup</h3>
+							<p>The HTML service lets you serve web pages that can interact with server-side Apps Script functions. It is particularly useful for building web apps or adding custom user interfaces in Google Docs, Sheets, and Forms. You can even use it to generate the body of an email.</p>
+						</div>	
+						<div class="box">
+							<img src="cc.png">
+							<h3>CSS stylesheet</h3>
+							<p> CSS allows the designer and frontend developer to create eye-caching websites rich in content in low code. It combines with HTML to build highly interactive online pages.Ultimately it helps in enhancing the appearance of the website and page</p>
+							
+						</div>
+						<div class="box">
+							<img src="kb.png">
+							<h3>JAVA SCRIPT</h3>
+							<p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.While it is most well-known as the scripting language for Web pages, </p>
+							
+						</div>
+				</section>
+			</body>
+		</head>
